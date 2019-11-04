@@ -1,25 +1,27 @@
 ---
-title: "Min fina titel"
+title: "Me-sida i kursen design"
+views:
+    byline:
+        region: main
+        sort: 2
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/byline
+
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/me1.jpg?w=300" class="right" caption="Bild på mig"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Jag heter Richard Stegersjö och är 30 år gammal. Ursprungligen kommer jag från Borås, men den största delen av min uppväxt var jag bosatt i Skåne, närmare bestämt Helsingborg.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+På gymnasiet läste jag det naturvetenskapliga programmet, och efter examen var jag i Frankrike, för att efterföljande år påbörja en utbildning inom industriell ekonomi på KTH i Stockholm. Efter studiernas avslut arbetade jag som konsult inom rekryteringsbranschen, där jag i huvudsak utförde rekryteringsuppdrag inom ingenjörsyrken, bl.a. inom bygg, industri och IT.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Efter att ha arbetat i några år kände jag att jag ville göra något annat. Valet att studera webbutveckling kom sig av att jag intresserar mig för teknisk utveckling och för vad den medför till samhället i stort. Jag tycket dessutom om att syssla med problemlösning och låta mig uppslukas av en viss uppgift. Min största passion är nog dock att bygga saker. Det är tillfredsställande att se hur något tar form från ingenting och utvecklas vidare till en färdig produkt. Inom webbutvecklingen hoppas jag få utlopp för detta.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Att kunna läsa utbildningen på distans var ett stort plus för mig. Jag har redan läst på plats på högskola tidigare och känner mig färdig med den delen i livet. Sedan uppskattar jag flexibiliteten, att kunna jobba när och var jag vill. Det är något jag kommer sträva efter när jag kommer ut i arbetslivet också, åtminstonne på sikt.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Ett av mina stora fritidsintressen är träning, bl.a. thaiboxning, och det är en av anledningarna till att jag bor i Thailand under studietiden. Ytterligare ett intresse är musikproduktion.
