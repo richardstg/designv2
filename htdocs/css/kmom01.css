@@ -4,6 +4,16 @@
  * This stylesheet is for the design course and kmom01. Fill it with style
  * to style up the website so it is useable.
  */
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    color: #FFF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
 
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
@@ -13,4 +23,66 @@
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+}
+
+.wrap-all {
+    width: 800px;
+    margin: 0 auto;
+    background-color: darkgrey;
+    padding: 15px;
+}
+
+.site-logo {
+    display: none;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.region-header-col-2 {
+    text-align: center;
+}
+
+ul.my-navbar {
+    display: inline-flex;
+    list-style: none;
+}
+
+ul.my-navbar li {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #FFF;
+}
+
+ul.my-navbar li a {
+    color: #FFF;
+}
+
+.figure.right {
+    float: right;
+}
+
+figcaption p {
+    margin: 2px;
+    font-style: italic;
+}
+
+.author-byline {
+    margin: 30px 0;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+figcaption {
+    margin: 0;
+}
+
+.footer-column-wrapper {
+    display: flex;
+}
+
+.block.site-footer p {
+    text-align: center;
 }

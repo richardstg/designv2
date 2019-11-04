@@ -1,4 +1,5 @@
 ---
+title: "Om kursen"
 views:
     kursrepo:
         region: sidebar-right
