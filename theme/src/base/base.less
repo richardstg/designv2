@@ -1,0 +1,28 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #1b1c20;
+@bgColorBody: #17181b;
+@colorBody: #fff;
+@fontFamilyBody: sans-serif;
+
+html {
+    background-color: @bgColorHtml;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+img {
+    max-width: 100%;
+}

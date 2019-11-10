@@ -1,0 +1,134 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+/**
+ * Main and sidebars layout
+ */
+
+.outer-wrap {
+    &.outer-wrap-header {
+        border-bottom: 0.5px solid #252527;
+    }
+}
+
+.inner-wrap {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #1b1c20;
+    border: 0.5px solid #252527;
+
+    &.inner-wrap-footer {
+        border: none;
+    }
+    //overflow: auto;
+}
+
+.inner-wrap-main {
+    overflow: auto;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-main {
+    width: 70%;
+    margin-left: 15%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+.region-flash img {
+    width: 100%;
+}
+
+.region-header-col-2 {
+    text-align: center;
+}
+
+.rm-desktop a {
+    color: #FFF;
+}
+
+.figure.right {
+    float: right;
+}
+
+figcaption p {
+    margin: 2px;
+    font-style: italic;
+}
+
+.author-byline {
+    margin: 30px 0;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    padding: 15px 0;
+    & img {
+        width: 20%;
+        float: right;
+    }
+}
+
+figcaption {
+    margin: 0;
+}
+
+.article-pic-container {
+    width: 40%;
+    & img {
+        width: 100%;
+    }
+}
+
+/**
+ * Footer layout
+ */
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.footer-column-wrapper {
+    display: flex;
+}
+
+.block.site-footer p {
+    text-align: center;
+}
+
+.outer-wrap {
+    &.outer-wrap-footer {
+        border-top: 0.5px solid #252527;
+    }
+}

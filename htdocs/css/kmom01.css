@@ -41,6 +41,11 @@ html {
     float: left;
 }
 
+.region-flash img {
+    width: 100%;
+    margin: 0;
+}
+
 .region-header-col-2 {
     text-align: center;
 }
@@ -73,6 +78,12 @@ figcaption p {
     margin: 30px 0;
     border-top: 1px solid #FFF;
     border-bottom: 1px solid #FFF;
+    padding: 15px 0;
+}
+
+.author-byline img {
+    width: 20%;
+    float: right;
 }
 
 figcaption {
@@ -85,4 +96,12 @@ figcaption {
 
 .block.site-footer p {
     text-align: center;
+}
+
+.article-pic-container {
+    width: 30%;
+}
+
+.article-pic-container img {
+    width: 100%;
 }
