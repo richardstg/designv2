@@ -14,7 +14,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/me1.jpg" class="right article-pic-container" caption="Bild på Richard Stegersjö"]
+[FIGURE src="image/me1.jpg?width=350" class="right article-pic-container" caption="Bild på Richard Stegersjö"]
 
 Jag heter Richard Stegersjö och är 30 år gammal. Ursprungligen kommer jag från Borås, men den största delen av min uppväxt var jag bosatt i Skåne, närmare bestämt Helsingborg.
 
