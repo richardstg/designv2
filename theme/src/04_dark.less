@@ -1,0 +1,41 @@
+/*!
+ * Stylesheet for design kmom04, dark theme.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+/**
+ * Import base for the theme.
+ */
+@import "kmom04.less";
+
+/**
+ * My own settings for the theme.
+ */
+// Adapt the typographic grid to my style
+@fontFamilyHeadings: @fontFamilyHelveticaNeue;
+@fontFamilyBody: @fontFamilyHelveticaNeue;
+@fontFamilyCode: @fontFamilyCourier;
+
+// Magic number and base fontsize
+@magicNumber:  28px;  // 22px
+@fontSizeBody: 16px;
+
+// Adapt the colors to the style
+@bgColorHtml: #424242;
+@bgColorBody: #303030;
+@bgColorInnerWrap: #212121;
+@bgColorHeader: #000000;
+@bgColorFooter: @bgColorHtml;
+@borderColor: #595959;
+
+
+// Font colors
+@colorBody: #F2F2F2;
+@colorHeader: #F2F2F2;
+@colorFooter: #F2F2F2;
+
+a,
+.rm-navbar {
+    color: #00AEFA;
+}

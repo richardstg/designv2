@@ -5411,6 +5411,12 @@ hr::after {
 .site-logo {
   display: none;
 }
+h1,
+h2,
+h3,
+h4 {
+  border-bottom: 0.5px solid #252527;
+}
 /**
  * Header layout
  */

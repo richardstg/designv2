@@ -1,7 +1,16 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04, colorful theme.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+/**
+ * Import base for the theme.
+ */
+/*!
+ * Base stylesheet for kmom04.
+ *
+ * This is the base-module for kmom04, and is used by the minimalistic-, colorful-
+ * and dark-theme stylesheets.
  */
 /**
  * Import mixins.
@@ -5008,7 +5017,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 .hgrid .inner-wrap {
-  background-image: url("../img/magic-number-24px.png");
+  background-image: url("../img/magic-number-28px.png");
 }
 /**
  * Base style to affect HTML elements on a general scale.
@@ -5017,7 +5026,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Base style to affect HTML elements on a general scale.
  */
 html {
-  background-color: #1b1c20;
+  background-color: #ED00FA;
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -5028,9 +5037,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #dcdcdc;
-  background-color: #17181b;
-  font: 18px/1.33333333 Cambria, Georgia, Times, 'Times New Roman', serif;
+  color: #FFFFF0;
+  background-color: #14C7A3;
+  font: 18px/1.55555556 MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 img {
   max-width: 100%;
@@ -5041,9 +5050,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  font-family: Times, "Times New Roman", serif;
+  margin-top: 28px;
+  margin-bottom: 28px;
 }
 h1 img,
 h2 img,
@@ -5055,10 +5064,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.12280702;
+  line-height: 1.30994152;
   font-weight: normal;
   border-bottom: 1px solid #666;
-  margin-bottom: 23px;
+  margin-bottom: 27px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -5066,58 +5075,58 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 48px;
+  margin-top: 56px;
 }
 h1 + h2 {
-  margin-top: 24px;
+  margin-top: 28px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.42222222;
+  line-height: 1.65925926;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 27px;
   border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
-  margin-top: 24px;
+  margin-top: 28px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.52380952;
+  line-height: 1.77777778;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 27px;
   border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
-  margin-top: 24px;
+  margin-top: 28px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.77777778;
+  line-height: 1.03703704;
   font-weight: normal;
-  margin-bottom: 23px;
+  margin-bottom: 27px;
   border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
-  margin-top: 24px;
+  margin-top: 28px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.06666667;
-  margin-bottom: 23px;
+  line-height: 1.24444444;
+  margin-bottom: 27px;
   border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
-  margin-top: 24px;
+  margin-top: 28px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.06666667;
-  margin-bottom: 23px;
+  line-height: 1.24444444;
+  margin-bottom: 27px;
   border-bottom: 1px solid #EEE;
 }
 p {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 small,
 .small,
@@ -5158,7 +5167,7 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 pre,
 code,
@@ -5184,7 +5193,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 pre code {
   display: block;
@@ -5194,21 +5203,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 23px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  margin-bottom: 27px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 ul ul,
 ol ul,
@@ -5223,7 +5232,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 dl.horizontal dt {
   clear: left;
@@ -5241,7 +5250,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 table.full-width,
 article .table,
@@ -5262,7 +5271,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.52380952;
+  line-height: 1.77777778;
   text-align: left;
   font-style: italic;
 }
@@ -5284,7 +5293,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 6px;
+  padding: 7px;
 }
 article table tr,
 .table tr,
@@ -5308,8 +5317,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 35px;
-  margin-bottom: 36px;
+  margin-top: 41px;
+  margin-bottom: 42px;
 }
 hr::after {
   content: "§";
@@ -5352,6 +5361,10 @@ hr::after {
      */
 }
 /**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
  * Layout style using grid
  */
 /**
@@ -5372,18 +5385,21 @@ hr::after {
   clear: both;
 }
 .inner-wrap {
-  background-color: #1b1c20;
+  background-color: #09AD8C;
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
 }
 .inner-wrap.inner-wrap-footer {
   border: none;
+  color: #FFFFF0;
 }
 .inner-wrap.inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  color: #FFFFF0;
+  background-color: #A611AD;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5406,7 +5422,7 @@ hr::after {
   }
 }
 .outer-wrap.outer-wrap-header {
-  border-bottom: 0.5px solid #252527;
+  border-bottom: 0.5px solid #FBC619;
 }
 .site-logo {
   display: none;
@@ -5415,13 +5431,13 @@ h1,
 h2,
 h3,
 h4 {
-  border-bottom: 0.5px solid #252527;
+  border-bottom: 0.5px solid #FBC619;
 }
 /**
  * Header layout
  */
 .outer-wrap-header {
-  background-color: #1b1c20;
+  background-color: #A611AD;
 }
 .region-flash {
   display: inline;
@@ -5500,8 +5516,7 @@ h4 {
   margin-right: 0.52083333%;
 }
 .wrap-sidebar h4 {
-  background-image: linear-gradient(to right, #17181b, #1b1c20);
-  border-bottom: 0.5px solid #252527;
+  border-bottom: 0.5px solid #FBC619;
 }
 .region-header-col-2 {
   text-align: center;
@@ -5530,8 +5545,7 @@ figcaption p {
   font-style: italic;
 }
 .author-byline {
-  border-top: 0.5px solid #252527;
-  border-bottom: 0.5px solid #252527;
+  border-top: 0.5px solid #FBC619;
 }
 .author-byline img {
   padding-left: 5px;
@@ -5618,16 +5632,12 @@ figcaption p {
   text-align: center;
 }
 .outer-wrap.outer-wrap-footer {
-  border-top: 0.5px solid #252527;
+  border-top: 0.5px solid #FBC619;
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background-color: #1b1c20;
+  background-color: #ED00FA;
 }
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
 /**
  * Layout for responsive style through media queries.
  */
@@ -5697,4 +5707,7 @@ figcaption p {
 }
 /**
  * My own settings, not currently in their own module.
+ */
+/**
+ * My own settings for the theme.
  */

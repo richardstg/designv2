@@ -1,0 +1,41 @@
+/*!
+ * Stylesheet for design kmom04, minimalistic theme.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+/**
+ * Import base for the theme.
+ */
+@import "kmom04.less";
+
+/**
+ * My own settings for the theme.
+ */
+// Adapt the typographic grid to my style
+@fontFamilyHeadings: @fontFamilyHelveticaNeue;
+@fontFamilyBody: @fontFamilyHelveticaNeue;
+@fontFamilyCode: @fontFamilyCourier;
+
+// Magic number and base fontsize
+@magicNumber:  28px;  // 22px
+@fontSizeBody: 16px;
+
+// Adapt the colors to the style
+@bgColorHtml: #8C8C8C;
+@bgColorBody: #F2F2F2;
+@bgColorInnerWrap: #D9D9D9;
+@bgColorHeader: #0D0D0D;
+@bgColorFooter: @bgColorHtml;
+@borderColor: #595959;
+
+
+// Font colors
+@colorBody: #0D0D0D;
+@colorHeader: #F2F2F2;
+@colorFooter: #0D0D0D;
+
+a,
+.rm-navbar {
+    color: #FF5800;
+}

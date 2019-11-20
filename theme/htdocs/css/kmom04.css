@@ -1,7 +1,8 @@
 /*!
- * Stylesheet for design kmom03.
+ * Base stylesheet for kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This is the base-module for kmom04, and is used by the minimalistic-, colorful-
+ * and dark-theme stylesheets.
  */
 /**
  * Import mixins.
@@ -5352,6 +5353,10 @@ hr::after {
      */
 }
 /**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
  * Layout style using grid
  */
 /**
@@ -5379,11 +5384,14 @@ hr::after {
 }
 .inner-wrap.inner-wrap-footer {
   border: none;
+  color: white;
 }
 .inner-wrap.inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  color: white;
+  background-color: #1b1c20;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5500,7 +5508,6 @@ h4 {
   margin-right: 0.52083333%;
 }
 .wrap-sidebar h4 {
-  background-image: linear-gradient(to right, #17181b, #1b1c20);
   border-bottom: 0.5px solid #252527;
 }
 .region-header-col-2 {
@@ -5531,7 +5538,6 @@ figcaption p {
 }
 .author-byline {
   border-top: 0.5px solid #252527;
-  border-bottom: 0.5px solid #252527;
 }
 .author-byline img {
   padding-left: 5px;
@@ -5624,10 +5630,6 @@ figcaption p {
 .inner-wrap-footer {
   background-color: #1b1c20;
 }
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
 /**
  * Layout for responsive style through media queries.
  */
