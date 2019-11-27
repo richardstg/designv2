@@ -5546,12 +5546,10 @@ figcaption p {
 }
 .article-pic-container {
   width: 40%;
+  float: right;
 }
 .article-pic-container img {
   width: 100%;
-}
-.figure.right {
-  float: right;
 }
 /**
  * Responsive 1, 2, 3

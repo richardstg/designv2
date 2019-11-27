@@ -55,8 +55,37 @@ return [
                         "url" => "rapport/fargschema",
                         "title" => "Rapport för Kmom04.",
                     ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport för Kmom05.",
+                    ],
                 ],
             ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogginlägg.",
+            /*"submenu" => [
+                "items" => [
+                    [
+                        "text" => "Kmom05 - Mitt tredje inlägg",
+                        "url" => "rapport/mitt-tredje-inlagg",
+                        "title" => "Mitt tredje inlägg.",
+                    ],
+                    [
+                        "text" => "Kmom05 - Mitt andra inlägg",
+                        "url" => "rapport/mitt-andra-inlagg",
+                        "title" => "Mitt andra inlägg.",
+                    ],
+                    [
+                        "text" => "Kmom05 - Mitt första inlägg",
+                        "url" => "rapport/mitt-forsta-inlagg",
+                        "title" => "Mitt första inlägg.",
+                    ],
+                ],
+            ],*/
         ],
         [
             "text" => "Om",
