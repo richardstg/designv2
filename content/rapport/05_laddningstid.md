@@ -215,11 +215,11 @@ Caliroots är inte snabb, men jag tycker ändå att den är godkänd. För att e
 
 Referenser
 -----------------------
-IDG: https://topp100.idg.se/2.39772/1.714254/topp100-2019-sveriges-basta-sajter
+IDG: [https://topp100.idg.se/2.39772/1.714254/topp100-2019-sveriges-basta-sajter](https://topp100.idg.se/2.39772/1.714254/topp100-2019-sveriges-basta-sajter)
 
-think with Google: https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf
+think with Google: [https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf](https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf)
 
-Rådata från undersökningen: https://docs.google.com/spreadsheets/d/14Xa4Tfa_AJufgt_SLVaaykyN5We6Rn5FMqJg5y-2DOs/edit?usp=sharing
+Rådata från undersökningen: [https://docs.google.com/spreadsheets/d/14Xa4Tfa_AJufgt_SLVaaykyN5We6Rn5FMqJg5y-2DOs/edit?usp=sharing](https://docs.google.com/spreadsheets/d/14Xa4Tfa_AJufgt_SLVaaykyN5We6Rn5FMqJg5y-2DOs/edit?usp=sharing)
 
 Övrigt
 -----------------------
