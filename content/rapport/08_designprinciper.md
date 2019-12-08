@@ -1,0 +1,16 @@
+---
+---
+Rapport kmom06 - designprinciper
+=========================
+####Balans
+Jag har eftersträvat att sidorna ska upplevas som så balanserade som möjligt, och då i huvudsak horisontellt. Navbaren spänner över hela skärmen, med navbar-länkarna centrerade i mitten.  Footern spänner också över hela skärmen horisontellt, med textkolumnerna centrerade i mitten. Inner-wrap-elementet är också centrerat, och i elementet har jag i så hög utsträckning som möjligt försökt få dess element, med texter och bilder, att balanseras upp av varandra, med lika tyngd på båda sidor.
+####Perspektiv
+För att skapa perspektiv på webbplatsen lade jag till en bakgrund av ett dramatiskt bergslandskap. Därefter färgsatte jag inner-wrap-elementet, både för läsbarhet och för att bygga på perspektivkänslan. Jag valde att göra det utan full opacitet, så att bilden fortfarande syns i bakgrunden. Detta bidrar till att ge effekten av att texten ligger på en halvt genomskinlig duk framför bilden med bergen.
+####Unity
+Samtliga sidor följer i grunden samma struktur och layouten på dem liknar varandra.  Inner-wrap-elementet finns med på alla sidor med samma bredd. Navbaren och footern är närvarande och ser likadana ut överallt. Bakgrundsbilden är också likadan för alla sidor, liksom flashbilden (här var jag tvungen att kompromissa då en annan används för temat med designelementen, men tanken är att den ska vara samma). Grundfärgen på text är vit för alla sidor. Det finns en viss variation mellan sidornas layout i och med att de kan ha antingen ha en, två eller tre kolumner. Detta är dock ett förutsägbart system som följer genom hela webbplatsen. Därmed anser jag att kolumnsystemet och griddet med sin struktur bidrar till en enhetlighet.
+####Harmony
+För att uppnå harmoni valde jag att utgå från färgerna i bakgrundsbilden.  Jag använde färgerna i den övre delen av bilden som färg till headern med navbaren och inner-wrap-elementet. Färgen för den nedre delen av bilden applicerades på footern. För att ytterligare förstärka känslan lades ett filter med hjälp av CImage över flashbilden. På så vis har den en liknande ton som headern, inner-wrap-elementet och bakgrundsbilden. Jag tog även vissa accentfärger från flashbilden och använde som textfärg på länkar (den bengulsvit färgen) och för sidebarsens h4-rubriker (den ljusblåa färgen). I min byline använde jag den orangea färgen på kattens glasögon och applicerade på byline-texten.
+####Rörelse
+Flashbilden kändes som en lämplig plats att få in rörelse på webbplatsen. Jag valde ut en bild på forsande vatten. Vilket tidigare nämnts redigerade jag dess färgsättning med CImage. Flashbilden finns på sidan för ”Hem”,  ”Om” och ”Test”. Det fick fungera som en kompromiss då jag använder en annan flashbild för uppgiften med designelementen.
+####Variety
+För att uppnå variation fokuserade jag i huvudsak på kontrast med färg. Länkarna har fått en annan färg än texten i övrig, en bengulsvit färg och rubriker för sidebars har fått en ljusblå färg. Jag gav även bylinens text en orange färg som skapar kontrast mot övrig text på sidan. Min byline fick dessutom en kursiv text, vilket gör att den sticker ut mot den andra texten på sidan som är vanlig. Elementen på sidan är i regel fyrkantiga, och för att bryta det mönstret gjorde jag bilden i bylinen till oval.

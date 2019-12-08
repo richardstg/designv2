@@ -1,0 +1,35 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #1b1c20;
+@bgColorBody: #1b1c20; //#17181b;
+@colorBody: white; //rgb(220,220,220);
+
+html {
+    background-color: @bgColorHtml;
+    //background: linear-gradient(0deg, rgba(37,37,39,1) 0%, rgba(27,28,32,1) 100%);
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    //color: darkred;
+    background-color: @bgColorBody;
+    background-image: url('https://images.pexels.com/photos/1428277/pexels-photo-1428277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    //font: 100.01%/1 @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+img {
+    max-width: 100%;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
